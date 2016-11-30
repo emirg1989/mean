@@ -1,0 +1,33 @@
+page-publicationsbyseccion {
+  .scroll-content {
+    background-color: #2980b9;
+    
+  }
+  h2, h3, h4, h5, p, .card-subtitle{
+
+    font-family: 'Lobster', cursive;
+  }
+  img {
+    max-width: 65%;
+    border: 0px;
+    margin-left: 50px;
+  }
+  .card-md h2 {
+    margin: 2px 0;
+    font-size: 3rem;
+    font-weight: normal;
+    color: #24cab4;
+  }
+  .card-md h3, .card-md h4, .card-md h5, .card-md h6 {
+    margin: 2px 0;
+    font-size: 1.8rem;
+    font-weight: normal;
+    color: #144a56;
+  }
+  .card-subtitle
+  {
+    color: #144a56;
+    font-size: 15px;
+    margin-left: 15px;
+  }
+}

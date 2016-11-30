@@ -1,0 +1,56 @@
+<!--
+  Generated template for the CreatePublications page.
+
+  See http://ionicframework.com/docs/v2/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>Crear Publicacion</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+  <ion-item>
+    <ion-label floating>Titulo de la publicacion(*)</ion-label>
+    <ion-input [(ngModel)]="Titulo" type="text"></ion-input>
+  </ion-item>
+  <ion-item>
+    <ion-label floating>Descripcion de la publicacion(*)</ion-label>
+    <ion-input [(ngModel)]="Descripcion" type="text"></ion-input>
+  </ion-item>
+  <ion-item>
+    <ion-label floating>Nombre del Vendedor(*)</ion-label>
+    <ion-input [(ngModel)]="Vendedor" type="text"></ion-input>
+  </ion-item>
+  <ion-item>
+    <ion-label floating>Telefono del Vendedor(*)</ion-label>
+    <ion-input [(ngModel)]="Telefono" type="number"></ion-input>
+  </ion-item>
+  <br>
+  <br>
+  <ion-list>
+    <ion-item>
+      <ion-label>Seccion(*)</ion-label>
+      <ion-select [(ngModel)]="Seccion">
+        <ion-option value="Ingenieria">Ingenieria</ion-option>
+        <ion-option value="Medicina">Medicina</ion-option>
+        <ion-option value="Arquitectura">Arquitectura</ion-option>
+        <ion-option value="Diseño Grafico">Diseño Grafico</ion-option>
+        <ion-option value="Abogacia">Abogacia</ion-option>
+        <ion-option value="Ciencias Economicas y Politicas">Ciencias Economicas y Politicas</ion-option>
+      </ion-select>
+    </ion-item>
+  </ion-list>
+  <ion-item>
+    <ion-label floating>Precio del Producto</ion-label>
+    <ion-input [(ngModel)]="Precio" type="number"></ion-input>
+  </ion-item>
+  <br>
+  <button ion-button block (click)="takePicture()"><ion-icon name="camera"></ion-icon>Tomar Foto</button>
+  <br>
+  <button ion-button block (click)="add()">Crear Publicacion</button>
+</ion-content>

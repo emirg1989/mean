@@ -1,0 +1,77 @@
+h1{
+  color: rgba(9, 167, 9, 0.61);
+  text-align: center;
+  font-size: 52px;
+    margin-top: 100px;
+}
+h1, h2{
+  font-family: 'Merriweather', georgia, serif;
+}
+h2{
+  color: rgba(9, 167, 9, 0.61);
+  font-size: 20px;
+}
+*{
+  position:static;
+  top: 50;
+}
+
+.form {
+  height: 500;
+  width: 800;
+  margin-left: 100px
+}
+input, textarea{
+  width: 400px;
+  height: 30px;
+  border: 1px solid;
+  border-color: rgba(204, 204, 204, 0.84);
+  border-radius: 4px;
+}
+
+textarea{
+  height:200px;
+}
+
+button {
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    background-color: #4CAF50;
+    border: 1px solid;
+    color: white;
+    box-shadow: 0 2px 15px 0 rgba(0,0,0,0.2), 0 6px 10px 0 rgba(0,0,0,0.19);
+    width: 100px;
+    height: 40;
+    margin-left: 300px;
+}
+
+button:hover {
+    background-color: white;
+    color: #4CAF50;
+}
+.redesSociales{
+  position: absolute;
+  left: 800px;
+  top: 160;
+}
+.imgF{
+  position: absolute;
+  top: 220px;
+  width: 100px;
+  height: 100px;
+  background: url("app/resources/facebook.png") center center;
+  background-size: contain;
+  background-color: #69c969;
+  border-radius: 16px;
+}
+.imgL{
+  position: absolute;
+  top:100px;
+  width: 100px;
+  height: 100px;
+  background: url("app/linke.png") center center;
+  background-size: contain;
+  background-color: #69c969;
+  border-radius: 5px;
+
+}

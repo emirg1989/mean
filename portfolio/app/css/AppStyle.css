@@ -1,0 +1,61 @@
+nav{
+    background-color:#27ae60;
+    height: 45px;
+    min-height: 45px;
+    padding: 0 16px;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.26);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    display: block;
+}
+
+.aEmir{
+  font-size: 20px;
+  color: white;
+  margin: 5px 5px;
+  padding: 5px;
+  text-decoration:none;
+  font-family: 'Arvo', serif;
+}
+.aMenu{
+  font-size: 20px;
+  color: rgba(111, 111, 111, 0.82);
+  margin: 5px 5px;
+  padding: 5px;
+  text-decoration:none;
+  font-family: 'Arvo', serif;
+}
+.aMenu:hover{
+    color:white;
+    border-bottom: 3px solid #fff;
+}
+
+.aMenu:focus:visited{
+  color:white;
+
+}
+.menuDiv{
+    padding-left: 800px;
+    margin-top:  -30px;
+    min-height: 30px;
+    min-width: 30px;
+    width: 400px;
+    display: block;
+    box-sizing: content-box;
+  }
+
+.emirDiv{
+  padding-top: 8px;
+}
+.button {
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+
+.button:hover {
+    background-color: #4CAF50; /* Green */
+    color: white;
+}
